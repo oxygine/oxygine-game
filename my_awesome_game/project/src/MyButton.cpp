@@ -23,6 +23,7 @@ void MyButton::onEvent(Event* ev)
         //clicked button should scale up and down
         setScale(1.0f);
         addTween(Actor::TweenScale(1.1f), 300, 1, true);
+        playSound("click");
     }
 }
 

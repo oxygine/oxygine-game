@@ -1,12 +1,14 @@
 #include "oxygine-framework.h"
+#include "oxygine-sound.h"
 #include "res.h"
 #include "Game.h"
 #include "MainMenuScene.h"
 #include "GameScene.h"
 #include "GameMenu.h"
-#include "SoundSystem.h"
 using namespace oxygine;
 
+
+SoundPlayer player;
 
 void example_preinit()
 {
@@ -14,7 +16,7 @@ void example_preinit()
 
 void example_init()
 {
-	SoundSystem::create()->init(16);
+    SoundSystem::create()->init(16);
     //load resources
     res::load();
 
@@ -29,8 +31,8 @@ void example_init()
 
 void example_update()
 {
-	SoundSystem::get()->update();
-
+    SoundSystem::get()->update();
+    player.update();
 }
 
 void example_destroy()
@@ -41,5 +43,5 @@ void example_destroy()
 
     res::free();
 
-	SoundSystem::free();
+    SoundSystem::free();
 }
