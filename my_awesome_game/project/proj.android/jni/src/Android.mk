@@ -6,10 +6,25 @@ LOCAL_MODULE := main
 #SDK_ROOT points to folder with SDL and oxygine-framework
 LOCAL_SRC_FILES := ../../../../..//SDL/src/main/android/SDL_android_main.c
 
-LOCAL_SRC_FILES += ../../../src/Enemy.cpp ../../../src/Game.cpp ../../../src/GameMenu.cpp ../../../src/GameScene.cpp ../../../src/Joystick.cpp ../../../src/MainMenuScene.cpp ../../../src/MyButton.cpp ../../../src/Player.cpp ../../../src/Rocket.cpp ../../../src/Scene.cpp ../../../src/Unit.cpp ../../../src/example.cpp ../../../src/main.cpp ../../../src/res.cpp 
+src := ../../../src
+
+LOCAL_SRC_FILES += $(src)/Enemy.cpp\
+	$(src)/Game.cpp\
+	$(src)/GameMenu.cpp\
+	$(src)/GameScene.cpp\
+	$(src)/Joystick.cpp\
+	$(src)/MainMenuScene.cpp\
+	$(src)/MyButton.cpp\
+	$(src)/Player.cpp\
+	$(src)/Rocket.cpp\
+	$(src)/Scene.cpp\
+	$(src)/Unit.cpp\
+	$(src)/example.cpp\
+	$(src)/main.cpp\
+	$(src)/res.cpp\
 
 
-LOCAL_STATIC_LIBRARIES := oxygine-framework_static
+LOCAL_STATIC_LIBRARIES := oxygine-sound_static oxygine-framework_static
 LOCAL_SHARED_LIBRARIES := SDL2
 
 include $(BUILD_SHARED_LIBRARY)
@@ -17,3 +32,4 @@ include $(BUILD_SHARED_LIBRARY)
 
 #import from NDK_MODULE_PATH defined in build.cmd
 $(call import-module, oxygine-framework)
+$(call import-module, oxygine-sound)
