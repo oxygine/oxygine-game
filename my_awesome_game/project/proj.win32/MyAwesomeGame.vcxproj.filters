@@ -14,4 +14,89 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="../src/Enemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../src/Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../src/GameMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../src/GameScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../src/Joystick.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../src/MainMenuScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../src/MyButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../src/Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../src/Rocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../src/Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../src/Unit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../src/example.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../src/main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../src/res.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="../src/Enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../src/Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../src/GameMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../src/GameScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../src/Joystick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../src/MainMenuScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../src/MyButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../src/Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../src/Rocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../src/Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../src/Unit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../src/example.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../src/res.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

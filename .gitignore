@@ -4,3 +4,4 @@ my_awesome_game/project/proj.win32/Debug_v100/
 *.opensdf
 my_awesome_game/project/proj.android/libs/armeabi-v7a/libSDL2.so
 my_awesome_game/project/proj.android/libs/armeabi-v7a/libmain.so
+*.ipch

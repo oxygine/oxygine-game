@@ -4,6 +4,7 @@
 #include "MainMenuScene.h"
 #include "GameScene.h"
 #include "GameMenu.h"
+#include "SoundSystem.h"
 using namespace oxygine;
 
 
@@ -13,6 +14,7 @@ void example_preinit()
 
 void example_init()
 {
+	SoundSystem::create()->init(16);
     //load resources
     res::load();
 
@@ -27,6 +29,7 @@ void example_init()
 
 void example_update()
 {
+	SoundSystem::get()->update();
 
 }
 
@@ -37,4 +40,6 @@ void example_destroy()
     GameMenu::instance = 0;
 
     res::free();
+
+	SoundSystem::free();
 }
