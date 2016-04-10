@@ -1,0 +1,4 @@
+my_awesome_game/project/proj.android/obj/
+my_awesome_game/project/proj.win32/Debug_v100/
+*.sdf
+*.opensdf
