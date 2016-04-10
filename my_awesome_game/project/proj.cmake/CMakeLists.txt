@@ -6,11 +6,48 @@ add_definitions(${OXYGINE_DEFINITIONS})
 include_directories(${OXYGINE_INCLUDE_DIRS})
 link_directories(${OXYGINE_LIBRARY_DIRS})
 
+
+add_subdirectory(../../../oxygine-sound/ oxygine-sound)
+add_definitions(${OXYGINESOUND_DEFINITIONS})
+include_directories(${OXYGINESOUND_INCLUDE_DIRS})
+link_directories(${OXYGINESOUND_LIBRARY_DIRS})
+
+
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
-add_executable(MyAwesomeGame ../src/Enemy.cpp ../src/Game.cpp ../src/GameMenu.cpp ../src/GameScene.cpp ../src/Joystick.cpp ../src/MainMenuScene.cpp ../src/MyButton.cpp ../src/Player.cpp ../src/Rocket.cpp ../src/Scene.cpp ../src/Unit.cpp ../src/example.cpp ../src/main.cpp ../src/res.cpp  ../src/Enemy.h ../src/Game.h ../src/GameMenu.h ../src/GameScene.h ../src/Joystick.h ../src/MainMenuScene.h ../src/MyButton.h ../src/Player.h ../src/Rocket.h ../src/Scene.h ../src/Unit.h ../src/example.h ../src/res.h )
+set(SRC ../src)
+set(SOURCES 
+	${SRC}/Enemy.cpp 
+	${SRC}/Game.cpp
+	${SRC}/GameMenu.cpp
+	${SRC}/GameScene.cpp
+	${SRC}/Joystick.cpp
+	${SRC}/MainMenuScene.cpp
+	${SRC}/MyButton.cpp
+	${SRC}/Player.cpp
+	${SRC}/Rocket.cpp
+	${SRC}/Scene.cpp
+	${SRC}/Unit.cpp
+	${SRC}/example.cpp
+	${SRC}/main.cpp
+	${SRC}/res.cpp
+	${SRC}/Enemy.h
+	${SRC}/Game.h
+	${SRC}/GameMenu.h
+	${SRC}/GameScene.h
+	${SRC}/Joystick.h
+	${SRC}/MainMenuScene.h
+	${SRC}/MyButton.h
+	${SRC}/Player.h
+	${SRC}/Rocket.h
+	${SRC}/Scene.h
+	${SRC}/Unit.h
+	${SRC}/example.h
+	${SRC}/res.h)
+
+add_executable(MyAwesomeGame ${SOURCES})
 
 if (WIN32) #disable console mode for VC++
 	set_target_properties(MyAwesomeGame PROPERTIES WIN32_EXECUTABLE TRUE)
 endif(WIN32)
 
-target_link_libraries(MyAwesomeGame ${OXYGINE_CORE_LIBS})
+target_link_libraries(MyAwesomeGame ${OXYGINESOUND_LIBS} ${OXYGINE_CORE_LIBS})
