@@ -58,6 +58,8 @@ void Rocket::_update(const UpdateState& us)
 
 void Rocket::explode()
 {
+	playSound("bomb_match");
+
     //we are dead
     //set this flag to true and it this rocket would be removed from units list in Game::doUpdate
     _dead = true;

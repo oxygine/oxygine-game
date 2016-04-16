@@ -12,6 +12,7 @@ namespace res
     {
         ui.loadXML("xmls/ui.xml");
         sounds["click"] = ResSound::create("sounds/button_click.ogg", false);
+		sounds["bomb_match"] = ResSound::create("sounds/bomb_match.ogg", false);
     }
 
     void free()
