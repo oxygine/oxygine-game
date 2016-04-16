@@ -7,10 +7,10 @@ using namespace oxygine;
 using namespace std;
 
 DECLARE_SMART(Scene, spScene);
-class Scene: public flow::Scene
+class MyScene: public flow::Scene
 {
 public:
-    Scene();
+    MyScene();
 
     spActor getView() const {return _view;}
 

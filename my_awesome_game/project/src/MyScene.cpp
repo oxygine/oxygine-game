@@ -1,6 +1,6 @@
-#include "Scene.h"
+#include "MyScene.h"
 
-Scene::Scene()
+MyScene::MyScene()
 {
     _view = new Actor;
     _view->setSize(getStage()->getSize());

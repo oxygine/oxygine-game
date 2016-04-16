@@ -1,8 +1,8 @@
 #pragma once
-#include "Scene.h"
+#include "MyScene.h"
 
 DECLARE_SMART(MainMenuScene, spMainMenuScene);
-class MainMenuScene: public Scene
+class MainMenuScene: public MyScene
 {
 public:
     static spMainMenuScene instance;
