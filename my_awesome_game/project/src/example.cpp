@@ -20,19 +20,21 @@ void example_init()
     //load resources
     res::load();
 
+	flow::init();
     //create all scenes
     GameMenu::instance = new GameMenu;
     GameScene::instance = new GameScene;
     MainMenuScene::instance = new MainMenuScene;
 
     //show main menu
-    MainMenuScene::instance->show();
+    flow::show(MainMenuScene::instance);
 }
 
 void example_update()
 {
     SoundSystem::get()->update();
     player.update();
+	flow::update();
 }
 
 void example_destroy()
@@ -44,4 +46,5 @@ void example_destroy()
     res::free();
 
     SoundSystem::free();
+	flow::free();
 }

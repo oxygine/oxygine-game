@@ -12,6 +12,9 @@ add_definitions(${OXYGINESOUND_DEFINITIONS})
 include_directories(${OXYGINESOUND_INCLUDE_DIRS})
 link_directories(${OXYGINESOUND_LIBRARY_DIRS})
 
+add_subdirectory(../../../oxygine-flow/ oxygine-flow)
+include_directories(${OXYGINE_FLOW_INCLUDE_DIRS})
+
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 set(SRC ../src)
@@ -50,4 +53,4 @@ if (WIN32) #disable console mode for VC++
 	set_target_properties(MyAwesomeGame PROPERTIES WIN32_EXECUTABLE TRUE)
 endif(WIN32)
 
-target_link_libraries(MyAwesomeGame ${OXYGINESOUND_LIBS} ${OXYGINE_CORE_LIBS})
+target_link_libraries(MyAwesomeGame ${OXYGINESOUND_LIBS} oxygine-flow ${OXYGINE_CORE_LIBS})

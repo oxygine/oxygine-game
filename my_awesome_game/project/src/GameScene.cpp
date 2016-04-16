@@ -31,9 +31,6 @@ GameScene::GameScene()
 
     //handle click to menu
     btn->addEventListener(TouchEvent::CLICK, CLOSURE(this, &GameScene::onEvent));
-
-    //subscribe to Hidden Event from GameMenu
-    GameMenu::instance->addEventListener(GameScene::HiddenEvent::EVENT, CLOSURE(this, &GameScene::onEvent));
 }
 
 void GameScene::onEvent(Event* ev)
@@ -45,25 +42,15 @@ void GameScene::onEvent(Event* ev)
         _game->getClock()->pause();
 
         //show GameMenu dialog
-        GameMenu::instance->show();
-    }
+		flow::show(GameMenu::instance, [=](Event* ev){
 
+			//"Continue" button was clicked
+			//dialog already hidden
+			//just resume Clock to continue game
+			_game->getClock()->resume();
 
-    if (ev->type == GameScene::HiddenEvent::EVENT)
-    {
-        //event from GameMenu called after GameMenu::instance->hide()
-        const string& name = GameMenu::instance->getLastClicked();
-        if (name == "Exit")
-        {
-            //if "Exit" button was clicked
-            changeScene(MainMenuScene::instance);
-        }
-        else
-        {
-            //"Continue" button was clicked
-            //dialog already hidden
-            //just resume Clock to continue game
-            _game->getClock()->resume();
-        }
+			if (ev->target->getName() == "Exit")
+				finish();
+		});
     }
 }

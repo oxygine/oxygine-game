@@ -3,6 +3,9 @@
 
 MyButton::MyButton()
 {
+	setTouchChildrenEnabled(false);
+
+
     //pressed button should be RED
     addEventListener(TouchEvent::TOUCH_DOWN, CLOSURE(this, &MyButton::onEvent));
     addEventListener(TouchEvent::TOUCH_UP, CLOSURE(this, &MyButton::onEvent));

@@ -1,12 +1,13 @@
 #include "res.h"
 #include "oxygine-sound.h"
-
+#include <map>
 extern  SoundPlayer player;
 
 namespace res
 {
     Resources ui;
-    unordered_map<string, ResSound*> sounds;
+	typedef std::map<string, ResSound*> Sounds;
+	Sounds sounds;
 
     void load()
     {
@@ -19,7 +20,10 @@ namespace res
     {
         ui.free();
 
-        delete sounds["click"];
+		for (Sounds::iterator i = sounds.begin(); i != sounds.end(); ++i)
+		{
+			delete i->second;
+		}
     }
 }
 

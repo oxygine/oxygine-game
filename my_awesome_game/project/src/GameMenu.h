@@ -8,14 +8,11 @@ public:
     static spGameMenu instance;
 
     GameMenu();
-    const string& getLastClicked() const {return _lastClicked;}
 
 private:
-    void onEvent(Event* ev);
     void showButtons(Event* ev);
-    void _show();
+	void preShowing(Event*);
 
     spBox9Sprite _bg;
     spActor _buttons;
-    string _lastClicked;
 };

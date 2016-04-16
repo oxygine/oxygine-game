@@ -7,6 +7,7 @@ spGameMenu GameMenu::instance;
 
 GameMenu::GameMenu()
 {
+	_dialog = true;
     //initialize dialog background
     _bg = initActor(new Box9Sprite,
                     arg_attachTo = _view,
@@ -72,11 +73,13 @@ GameMenu::GameMenu()
         button->setName(txt[i]);
         //handle click on button
         //each Object could have unique name. In this example button has the same name as text
-        button->addEventListener(TouchEvent::CLICK, CLOSURE(this, &GameMenu::onEvent));
+        button->addEventListener(TouchEvent::CLICK, getFinish());
     }
+
+	addEventListener(EVENT_PRE_SHOWING, CLOSURE(this, &GameMenu::preShowing));
 }
 
-void GameMenu::_show()
+void GameMenu::preShowing(Event*)
 {
     //before showing dialog hide buttons
     _buttons->setAlpha(0);
@@ -99,14 +102,4 @@ void GameMenu::showButtons(Event* ev)
     //tween activated from GameMenu::_show is done
     //fade in buttons and text
     _buttons->addTween(Actor::TweenAlpha(255), 300);
-}
-
-void GameMenu::onEvent(Event* ev)
-{
-    //button clicked
-    //remember it's name. It would asked later from GameScene.cpp
-    _lastClicked = ev->currentTarget->getName();
-
-    //hide dialog
-    hide();
 }
