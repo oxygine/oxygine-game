@@ -17,14 +17,14 @@ LOCAL_SRC_FILES += $(src)/Enemy.cpp\
 	$(src)/MyButton.cpp\
 	$(src)/Player.cpp\
 	$(src)/Rocket.cpp\
-	$(src)/Scene.cpp\
+	$(src)/MyScene.cpp\
 	$(src)/Unit.cpp\
 	$(src)/example.cpp\
 	$(src)/main.cpp\
 	$(src)/res.cpp\
 
 
-LOCAL_STATIC_LIBRARIES := oxygine-sound_static oxygine-framework_static
+LOCAL_STATIC_LIBRARIES := oxygine-flow_static oxygine-sound_static oxygine-framework_static
 LOCAL_SHARED_LIBRARIES := SDL2
 
 include $(BUILD_SHARED_LIBRARY)
@@ -33,3 +33,4 @@ include $(BUILD_SHARED_LIBRARY)
 #import from NDK_MODULE_PATH defined in build.cmd
 $(call import-module, oxygine-framework)
 $(call import-module, oxygine-sound)
+$(call import-module, oxygine-flow)
