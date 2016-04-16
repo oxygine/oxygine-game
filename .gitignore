@@ -7,3 +7,5 @@ my_awesome_game/project/proj.android/libs/armeabi-v7a/libmain.so
 *.ipch
 my_awesome_game/project/proj.cmake/build/
 my_awesome_game/project/proj.win32/Debug_v140/
+my_awesome_game/project/proj.ios/MyAwesomeGame_ios.xcodeproj/xcuserdata
+my_awesome_game/project/proj.ios/MyAwesomeGame_ios.xcodeproj/project.xcworkspace/xcuserdata

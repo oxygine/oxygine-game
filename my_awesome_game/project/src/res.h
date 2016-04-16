@@ -1,7 +1,6 @@
 #pragma once
 #include "oxygine-framework.h"
 #include <unordered_map>
-#include "ResSound.h"
 
 using namespace oxygine;
 using namespace std;
