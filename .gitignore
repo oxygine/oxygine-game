@@ -9,3 +9,6 @@ my_awesome_game/project/proj.cmake/build/
 my_awesome_game/project/proj.win32/Debug_v140/
 my_awesome_game/project/proj.ios/MyAwesomeGame_ios.xcodeproj/xcuserdata
 my_awesome_game/project/proj.ios/MyAwesomeGame_ios.xcodeproj/project.xcworkspace/xcuserdata
+my_awesome_game/project/proj.emscripten/build/
+my_awesome_game/project/proj.emscripten/build_release/
+my_awesome_game/project/proj.emscripten/data.js
