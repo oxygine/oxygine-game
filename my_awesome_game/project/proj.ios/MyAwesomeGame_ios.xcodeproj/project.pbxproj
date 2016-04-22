@@ -39,6 +39,7 @@
 		9286F95A1CCAC21D00D59913 /* Scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9286F9571CCAC21D00D59913 /* Scene.cpp */; };
 		9286F95B1CCAC21D00D59913 /* Transition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9286F9581CCAC21D00D59913 /* Transition.cpp */; };
 		9286F95E1CCAC23600D59913 /* MyScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9286F95C1CCAC23600D59913 /* MyScene.cpp */; };
+		9286F9641CCAC2D200D59913 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9286F9631CCAC2D200D59913 /* AppDelegate.mm */; };
 		9850666D9BEB7BAAA6AAECDC /* example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D954BD82D7708B65A08FB6B9 /* example.cpp */; };
 		C8860D93875589970329DCCD /* GameMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA100C319512824B7570663 /* GameMenu.cpp */; };
 		CD59C69314E9E74CD0A11E03 /* MainMenuScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6123B1E6FE4471A00F49751 /* MainMenuScene.cpp */; };
@@ -141,6 +142,8 @@
 		9286F9581CCAC21D00D59913 /* Transition.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Transition.cpp; path = "../../../oxygine-flow/src/flow/Transition.cpp"; sourceTree = "<group>"; };
 		9286F95C1CCAC23600D59913 /* MyScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MyScene.cpp; path = ../src/MyScene.cpp; sourceTree = "<group>"; };
 		9286F95D1CCAC23600D59913 /* MyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyScene.h; path = ../src/MyScene.h; sourceTree = "<group>"; };
+		9286F9621CCAC2D200D59913 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9286F9631CCAC2D200D59913 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		B6A9281364AF5D3B581D374C /* Unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Unit.h; path = ../src/Unit.h; sourceTree = "<group>"; };
 		BA41FC88D76540A6905224D6 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Player.cpp; path = ../src/Player.cpp; sourceTree = "<group>"; };
 		BD0E956CC3A2F7EB94822B5C /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../src/main.cpp; sourceTree = "<group>"; };
@@ -252,6 +255,7 @@
 		04998D4417F8A9ED003441C3 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				9286F9611CCAC2D200D59913 /* ios */,
 				9286F95C1CCAC23600D59913 /* MyScene.cpp */,
 				9286F95D1CCAC23600D59913 /* MyScene.h */,
 				360377333740D8A2FD15BBE6 /* Enemy.cpp */,
@@ -307,6 +311,16 @@
 				9286F9581CCAC21D00D59913 /* Transition.cpp */,
 			);
 			name = "oxygine-flow";
+			sourceTree = "<group>";
+		};
+		9286F9611CCAC2D200D59913 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				9286F9621CCAC2D200D59913 /* AppDelegate.h */,
+				9286F9631CCAC2D200D59913 /* AppDelegate.mm */,
+			);
+			name = ios;
+			path = ../src/ios;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -422,6 +436,7 @@
 				DA49ED8903C628BA578C8670 /* Game.cpp in Sources */,
 				C8860D93875589970329DCCD /* GameMenu.cpp in Sources */,
 				9286F95A1CCAC21D00D59913 /* Scene.cpp in Sources */,
+				9286F9641CCAC2D200D59913 /* AppDelegate.mm in Sources */,
 				1E839D002B2BA83FC83A695A /* GameScene.cpp in Sources */,
 				3A631A475DE035FC53ADE5EA /* Joystick.cpp in Sources */,
 				CD59C69314E9E74CD0A11E03 /* MainMenuScene.cpp in Sources */,
