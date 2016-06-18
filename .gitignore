@@ -14,3 +14,5 @@ my_awesome_game/project/proj.emscripten/build_release/
 my_awesome_game/project/proj.emscripten/data.js
 my_awesome_game/project/proj.cmake/build_emsc/
 my_awesome_game/project/proj.cmake/build_emsc_release/
+my_awesome_game/project/proj.android/.gradle/
+my_awesome_game/project/proj.android/build/
