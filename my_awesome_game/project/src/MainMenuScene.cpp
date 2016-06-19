@@ -61,6 +61,8 @@ MainMenuScene::MainMenuScene()
     btn->setY(btn->getHeight() / 2);
 
     btn->addEventListener(TouchEvent::CLICK, CLOSURE(this, &MainMenuScene::onEvent));
+
+	addBackHandler(getFinish());
 }
 
 void MainMenuScene::onEvent(Event* ev)

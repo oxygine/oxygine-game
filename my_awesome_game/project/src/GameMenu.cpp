@@ -26,7 +26,11 @@ GameMenu::GameMenu()
     //initialize TextStyle for TextField
     //TextStyle is plain struct with "setting" for Text
     TextStyle style;
-    style.font = res::ui.getResFont("big")->getFont();
+#if OXYGINE_VERSION > 3
+	style.font = res::ui.getResFont("big");
+#else
+	style.font = res::ui.getResFont("big")->getFont();
+#endif
     //vertical align
     style.vAlign = TextStyle::VALIGN_BOTTOM;
     //horizontal align
