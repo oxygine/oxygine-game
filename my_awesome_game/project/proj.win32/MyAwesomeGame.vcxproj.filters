@@ -16,6 +16,9 @@
     <Filter Include="oxygine-flow">
       <UniqueIdentifier>{4919b983-125a-4cc7-8c7b-c7ff45d437b8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="oxygine-freetype">
+      <UniqueIdentifier>{0e93d564-20a0-435e-ba5f-64880d65db45}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="../src/Enemy.cpp">
@@ -69,6 +72,9 @@
     <ClCompile Include="..\src\MyScene.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\oxygine-freetype\src\ResFontFT.cpp">
+      <Filter>oxygine-freetype</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="../src/Enemy.h">
@@ -121,6 +127,9 @@
     </ClInclude>
     <ClInclude Include="..\src\MyScene.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\oxygine-freetype\src\ResFontFT.h">
+      <Filter>oxygine-freetype</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
