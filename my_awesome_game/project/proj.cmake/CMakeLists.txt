@@ -16,7 +16,12 @@ add_subdirectory(../../../oxygine-flow/ oxygine-flow)
 include_directories(${OXYGINE_FLOW_INCLUDE_DIRS})
 
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${OXYGINE_CXX_FLAGS}")
+add_subdirectory(../../../oxygine-freetype/ oxygine-freetype)
+include_directories(${OXYGINE_FREETYPE_INCLUDE_DIRS})
+link_directories(${OXYGINE_FREETYPE_LIBRARY_DIRS})
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${OXYGINE_CXX_FLAGS} ${OXYGINE_FREETYPE_CXX_FLAGS}")
+
 set(SRC ${CMAKE_CURRENT_SOURCE_DIR}/../src)
 set(SOURCES 
 	${SRC}/Enemy.cpp 
@@ -53,7 +58,7 @@ if (WIN32) #disable console mode for VC++
 	set_target_properties(MyAwesomeGame PROPERTIES WIN32_EXECUTABLE TRUE)
 endif(WIN32)
 
-target_link_libraries(MyAwesomeGame ${OXYGINESOUND_LIBS} oxygine-flow ${OXYGINE_CORE_LIBS})
+target_link_libraries(MyAwesomeGame ${OXYGINESOUND_LIBS} oxygine-flow ${OXYGINE_CORE_LIBS} ${OXYGINE_FREETYPE_LIBS} oxygine-freetype)
 
 
 if (EMSCRIPTEN)

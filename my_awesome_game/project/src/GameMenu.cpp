@@ -26,15 +26,12 @@ GameMenu::GameMenu()
     //initialize TextStyle for TextField
     //TextStyle is plain struct with "setting" for Text
     TextStyle style;
-#if OXYGINE_VERSION > 3
-	style.font = res::ui.getResFont("big");
-#else
-	style.font = res::ui.getResFont("big")->getFont();
-#endif
+	style.font = res::ui.getResFont("main");
     //vertical align
     style.vAlign = TextStyle::VALIGN_BOTTOM;
     //horizontal align
     style.hAlign = TextStyle::HALIGN_CENTER;
+	style.fontSize = 70;
 
     spTextField paused = initActor(new TextField,
                                    arg_style = style,

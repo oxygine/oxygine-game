@@ -24,7 +24,7 @@ LOCAL_SRC_FILES += $(src)/Enemy.cpp\
 	$(src)/res.cpp\
 
 
-LOCAL_STATIC_LIBRARIES := oxygine-flow_static oxygine-sound_static oxygine-framework_static
+LOCAL_STATIC_LIBRARIES := oxygine-flow_static oxygine-sound_static oxygine-framework_static oxygine-freetype_static freetype2_static
 LOCAL_SHARED_LIBRARIES := SDL2
 
 include $(BUILD_SHARED_LIBRARY)
@@ -34,3 +34,4 @@ include $(BUILD_SHARED_LIBRARY)
 $(call import-module, oxygine-framework)
 $(call import-module, oxygine-sound)
 $(call import-module, oxygine-flow)
+$(call import-module, oxygine-freetype)

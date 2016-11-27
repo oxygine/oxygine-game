@@ -5,6 +5,7 @@
 #include "MainMenuScene.h"
 #include "GameScene.h"
 #include "GameMenu.h"
+#include "ResFontFT.h"
 using namespace oxygine;
 
 
@@ -16,6 +17,7 @@ void example_preinit()
 
 void example_init()
 {
+	ResFontFT::initLibrary();
     SoundSystem::create()->init(16);
     //load resources
     res::load();
@@ -44,6 +46,7 @@ void example_destroy()
     GameMenu::instance = 0;
 
     res::free();
+	ResFontFT::freeLibrary();
 
     SoundSystem::free();
 	flow::free();

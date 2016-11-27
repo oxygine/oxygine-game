@@ -10,3 +10,6 @@
 [submodule "oxygine-flow"]
 	path = oxygine-flow
 	url = git@github.com:oxygine/oxygine-flow.git
+[submodule "oxygine-freetype"]
+	path = oxygine-freetype
+	url = git@github.com:oxygine/oxygine-freetype.git
