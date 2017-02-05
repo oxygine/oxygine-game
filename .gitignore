@@ -18,3 +18,7 @@ my_awesome_game/project/proj.android/.gradle/
 my_awesome_game/project/proj.android/build/
 *.VC.db
 *.suo
+my_awesome_game/project/proj.android/bin/
+my_awesome_game/project/proj.android/gen/
+my_awesome_game/project/proj.win32/Debug_v140_xp/
+my_awesome_game/project/proj.cmake/data.js

@@ -30,7 +30,7 @@ GameMenu::GameMenu()
     //vertical align
     style.vAlign = TextStyle::VALIGN_BOTTOM;
     //horizontal align
-    style.hAlign = TextStyle::HALIGN_CENTER;
+    style.hAlign = TextStyle::HALIGN_MIDDLE;
 	style.fontSize = 70;
 
     spTextField paused = initActor(new TextField,
