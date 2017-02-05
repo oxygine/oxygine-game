@@ -31,7 +31,7 @@ GameMenu::GameMenu()
     style.vAlign = TextStyle::VALIGN_BOTTOM;
     //horizontal align
     style.hAlign = TextStyle::HALIGN_MIDDLE;
-	style.fontSize = 70;
+	style.fontSize = 71;
 
     spTextField paused = initActor(new TextField,
                                    arg_style = style,
@@ -43,8 +43,8 @@ GameMenu::GameMenu()
                                    arg_alpha = 128);
 
     //animate with infinity loops "Paused!" text
-    paused->addTween(Actor::TweenAlpha(255), 1200, -1, true);
-    paused->addTween(Actor::TweenScale(1.1f), 1200, -1, true);
+    paused->addTween(Actor::TweenAlpha(255), 600, -1, true);
+    paused->addTween(Actor::TweenScale(1.05f), 600, -1, true);
 
     y += 70;
 
