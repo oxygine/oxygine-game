@@ -20,7 +20,8 @@ void example_init()
 	ResFontFT::initLibrary();
     ResFontFT::setSnapSize(10);
 
-    SoundSystem::create()->init(16);
+    SoundSystem::create()->init(4);
+    
     //load resources
     res::load();
 

@@ -18,6 +18,7 @@ namespace res
 
     void free()
     {
+        player.stop();
         ui.free();
 
 		for (Sounds::iterator i = sounds.begin(); i != sounds.end(); ++i)
