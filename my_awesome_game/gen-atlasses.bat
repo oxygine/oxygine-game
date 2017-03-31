@@ -1,1 +1,1 @@
-..\..\..\tools\oxyresbuild -x xmls\ui.xml --src_data data --dest_data data
+..\oxygine-framework\tools\oxyresbuild -x xmls\ui.xml --src_data data --dest_data data
