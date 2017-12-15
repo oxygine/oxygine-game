@@ -13,6 +13,7 @@ MainMenuScene::MainMenuScene()
     spSprite sky = new Sprite;
     sky->setResAnim(res::ui.getResAnim("bg"));
     sky->attachTo(_view);
+    sky->setSize(getStage()->getSize());
 
     /*
     'initActor' is syntax sugar for
