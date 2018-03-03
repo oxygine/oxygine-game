@@ -7,13 +7,13 @@ spGameMenu GameMenu::instance;
 
 GameMenu::GameMenu()
 {
+    setName("GameMenu");
 	_dialog = true;
     //initialize dialog background
-    _bg = initActor(new Box9Sprite,
-                    arg_attachTo = _view,
-                    arg_resAnim = res::ui.getResAnim("box9"),
-                    arg_pos = _view->getSize() / 2 - Vector2(300, 300) / 2);
-
+    _bg = new Box9Sprite;
+    _bg->attachTo(_view);
+    _bg->setResAnim(res::ui.getResAnim("box9"));
+    _bg->setPosition(_view->getSize() / 2 - Vector2(300, 300) / 2);
     _bg->setGuides(30, 30, 30, 30);
 
 
@@ -33,14 +33,14 @@ GameMenu::GameMenu()
     style.hAlign = TextStyle::HALIGN_MIDDLE;
 	style.fontSize = 71;
 
-    spTextField paused = initActor(new TextField,
-                                   arg_style = style,
-                                   //colored text by "html" tags
-                                   arg_htmlText = "Paused<div c='00FF00'>!</div>",
-                                   arg_x = _view->getWidth() / 2,
-                                   arg_y = y,
-                                   arg_attachTo = _buttons,
-                                   arg_alpha = 128);
+    spTextField paused = new TextField;
+    paused->setStyle(style);
+    //colored text by "html" tags
+    paused->setHtmlText("Paused<div c='00FF00'>!</div>");
+    paused->setX(_view->getWidth() / 2);
+    paused->setY(y);
+    paused->attachTo(_buttons);
+    paused->setAlpha(128);
 
     //animate with infinity loops "Paused!" text
     paused->addTween(Actor::TweenAlpha(255), 600, -1, true);
@@ -60,10 +60,10 @@ GameMenu::GameMenu()
         const AnimationFrame& frame = btns->getFrame(rand() % btns->getColumns(), rand() % btns->getRows());
 
         //MyButton is user class inherited from Sprite
-        spMyButton button = initActor(new MyButton,
-                                      arg_resAnim = frame,
-                                      arg_anchor = Vector2(0.5f, 0.5f),
-                                      arg_attachTo = _buttons);
+        spMyButton button = new MyButton;
+        button->setAnimFrame(frame);
+        button->setAnchor(0.5f, 0.5f);
+        button->attachTo(_buttons);
 
         button->setX(_view->getWidth() / 2);
         button->setY(y);
