@@ -1,5 +1,5 @@
 #!/bin/sh
-emsdk activate
+emsdk activate latest
 
 python ../../../oxygine-framework/tools/others/embed_folder_js.py -s ../../data
 
