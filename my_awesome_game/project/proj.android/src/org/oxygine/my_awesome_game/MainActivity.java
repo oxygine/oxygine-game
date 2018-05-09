@@ -1,4 +1,4 @@
-package org.oxygine.MyAwesomeGame;
+package org.oxygine.my_awesome_game;
 
 import org.oxygine.lib.OxygineActivity;
 

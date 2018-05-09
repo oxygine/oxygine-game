@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyAwesomeGame", "MyAwesomeGame.vcxproj", "{2B4D7491-A4F8-4606-B0E3-2A1FCE3C46C4}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "my_awesome_game", "my_awesome_game.vcxproj", "{2B4D7491-A4F8-4606-B0E3-2A1FCE3C46C4}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "oxygine", "..\..\..\oxygine-framework\oxygine\SDL\win32\oxygine.vcxproj", "{52411305-CFE1-4FA8-9885-5729BFC816CF}"
 EndProject

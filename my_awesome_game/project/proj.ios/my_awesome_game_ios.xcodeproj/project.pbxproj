@@ -120,7 +120,7 @@
 /* Begin PBXFileReference section */
 		047F6BD19F885FF186A1447C /* GameMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameMenu.h; path = ../src/GameMenu.h; sourceTree = "<group>"; };
 		048AD0AD197D24AB001963EF /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		04998CEC17F8A933003441C3 /* MyAwesomeGame_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAwesomeGame_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04998CEC17F8A933003441C3 /* my_awesome_game_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = my_awesome_game_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04998D2F17F8A96E003441C3 /* SDL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL.xcodeproj; path = "../../..//SDL/Xcode-iOS/SDL/SDL.xcodeproj"; sourceTree = "<group>"; };
 		04998D3917F8A9AA003441C3 /* oxygine_ios.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = oxygine_ios.xcodeproj; path = "../../../oxygine-framework//oxygine/SDL/ios/oxygine/oxygine_ios.xcodeproj"; sourceTree = "<group>"; };
 		04998EE117F8ADB4003441C3 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -133,7 +133,7 @@
 		04998EED17F8ADD4003441C3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		04998EF517F8B6F3003441C3 /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng.a; path = "../../../oxygine-framework//oxygine/third_party/ios/libraries/libpng.a"; sourceTree = "<group>"; };
 		04998EF617F8B6F3003441C3 /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjpeg.a; path = "../../../oxygine-framework//oxygine/third_party/ios/libraries/libjpeg.a"; sourceTree = "<group>"; };
-		04E9AD3E1876FE84006A7317 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MyAwesomeGame/Images.xcassets; sourceTree = "<group>"; };
+		04E9AD3E1876FE84006A7317 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = my_awesome_game/Images.xcassets; sourceTree = "<group>"; };
 		04FE4D4FB640E0DF92DFB865 /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameScene.cpp; path = ../src/GameScene.cpp; sourceTree = "<group>"; };
 		0BF9628FC8D38F9748F0CDEB /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Game.cpp; path = ../src/Game.cpp; sourceTree = "<group>"; };
 		12CAC42FDF06ABE860CFEA53 /* Rocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rocket.h; path = ../src/Rocket.h; sourceTree = "<group>"; };
@@ -240,7 +240,7 @@
 		04998CED17F8A933003441C3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04998CEC17F8A933003441C3 /* MyAwesomeGame_ios.app */,
+				04998CEC17F8A933003441C3 /* my_awesome_game_ios.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -366,9 +366,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		04998CEB17F8A933003441C3 /* MyAwesomeGame_ios */ = {
+		04998CEB17F8A933003441C3 /* my_awesome_game_ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04998D2117F8A933003441C3 /* Build configuration list for PBXNativeTarget "MyAwesomeGame_ios" */;
+			buildConfigurationList = 04998D2117F8A933003441C3 /* Build configuration list for PBXNativeTarget "my_awesome_game_ios" */;
 			buildPhases = (
 				04998CE817F8A933003441C3 /* Sources */,
 				04998CE917F8A933003441C3 /* Frameworks */,
@@ -382,9 +382,9 @@
 				04998D3817F8A982003441C3 /* PBXTargetDependency */,
 				049B52B01871EBD100EF3C66 /* PBXTargetDependency */,
 			);
-			name = MyAwesomeGame_ios;
-			productName = MyAwesomeGame;
-			productReference = 04998CEC17F8A933003441C3 /* MyAwesomeGame_ios.app */;
+			name = my_awesome_game_ios;
+			productName = my_awesome_game;
+			productReference = 04998CEC17F8A933003441C3 /* my_awesome_game_ios.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -401,7 +401,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 04998CE717F8A933003441C3 /* Build configuration list for PBXProject "MyAwesomeGame_ios" */;
+			buildConfigurationList = 04998CE717F8A933003441C3 /* Build configuration list for PBXProject "my_awesome_game_ios" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -432,7 +432,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				04998CEB17F8A933003441C3 /* MyAwesomeGame_ios */,
+				04998CEB17F8A933003441C3 /* my_awesome_game_ios */,
 			);
 		};
 /* End PBXProject section */
@@ -632,18 +632,18 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = SG98QZPTLD;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MyAwesomeGame/MyAwesomeGame_ios-Prefix.pch";
+				GCC_PREFIX_HEADER = "my_awesome_game/my_awesome_game_ios-Prefix.pch";
 				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = NO;
-				INFOPLIST_FILE = "MyAwesomeGame/MyAwesomeGame_ios-Info.plist";
+				INFOPLIST_FILE = "my_awesome_game/my_awesome_game_ios-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"../../../oxygine-framework//oxygine/third_party/ios/libraries",
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.oxygine.MyAwesomeGame;
-				PRODUCT_NAME = MyAwesomeGame_ios;
+				PRODUCT_BUNDLE_IDENTIFIER = org.oxygine.my_awesome_game;
+				PRODUCT_NAME = my_awesome_game_ios;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -659,18 +659,18 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = SG98QZPTLD;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MyAwesomeGame/MyAwesomeGame_ios-Prefix.pch";
+				GCC_PREFIX_HEADER = "my_awesome_game/my_awesome_game_ios-Prefix.pch";
 				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = NO;
-				INFOPLIST_FILE = "MyAwesomeGame/MyAwesomeGame_ios-Info.plist";
+				INFOPLIST_FILE = "my_awesome_game/my_awesome_game_ios-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"../../../oxygine-framework//oxygine/third_party/ios/libraries",
 				);
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = org.oxygine.MyAwesomeGame;
-				PRODUCT_NAME = MyAwesomeGame_ios;
+				PRODUCT_BUNDLE_IDENTIFIER = org.oxygine.my_awesome_game;
+				PRODUCT_NAME = my_awesome_game_ios;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -680,7 +680,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04998CE717F8A933003441C3 /* Build configuration list for PBXProject "MyAwesomeGame_ios" */ = {
+		04998CE717F8A933003441C3 /* Build configuration list for PBXProject "my_awesome_game_ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04998D1F17F8A933003441C3 /* Debug */,
@@ -689,7 +689,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04998D2117F8A933003441C3 /* Build configuration list for PBXNativeTarget "MyAwesomeGame_ios" */ = {
+		04998D2117F8A933003441C3 /* Build configuration list for PBXNativeTarget "my_awesome_game_ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04998D2217F8A933003441C3 /* Debug */,

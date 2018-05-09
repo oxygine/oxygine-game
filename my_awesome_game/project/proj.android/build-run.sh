@@ -3,4 +3,4 @@
 #ndk-build NDK_MODULE_PATH="../../../../"
 ./gradlew assembleDebug
 adb install -r build/outputs/apk/proj.android-debug.apk
-adb shell am start -n org.oxygine.MyAwesomeGame/org.oxygine.MyAwesomeGame.MainActivity
+adb shell am start -n org.oxygine.my_awesome_game/org.oxygine.my_awesome_game.MainActivity

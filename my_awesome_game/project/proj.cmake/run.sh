@@ -13,4 +13,4 @@ make
 cd ../../data
 
 #run executable
-./../proj.cmake/build/MyAwesomeGame
+./../proj.cmake/build/my_awesome_game
