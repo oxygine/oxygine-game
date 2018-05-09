@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import os
 
 def replace_data(str, src, dest):
@@ -11,6 +14,7 @@ def rename_item(path, src, dest):
     new_name = os.path.join(left, right)
     if path != new_name:
         os.rename(path, new_name)
+        print("renaming\n  {}\n  -> {} ".format(path, new_name))
 
 def process_file(path, src, dest):
     with open(path, "rb") as fp:
@@ -24,7 +28,7 @@ def process_file(path, src, dest):
     rename_item(path, src, dest)
 
 
-def process_dir(path, src, dest):
+def process_dir(path, src, dest):	
     items = os.listdir(path)
     for item in items:
         pt = os.path.join(path, item)
@@ -37,7 +41,8 @@ def process_dir(path, src, dest):
 
 
 
-if __name__ == "__main__":
-    #process_dir("my_awesome_game", "qwert123")
-    process_dir("my_awesome_game", "MyAwesomeGame", "my_awesome_game")
-    #process_dir("qwert123",  "qwert123", "my_awesome_game")
+if __name__ == "__main__":	
+    new_name = "my_new_project_name"
+    #tool automatically renames all files/folders/data to <new_name>
+    process_dir("my_awesome_game", "my_awesome_game", new_name)
+
