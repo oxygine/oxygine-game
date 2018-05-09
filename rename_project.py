@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import os
+import sys
 
 def replace_data(str, src, dest):
     str = str.replace(src, dest)
@@ -42,7 +43,7 @@ def process_dir(path, src, dest):
 
 
 if __name__ == "__main__":	
-    new_name = "my_new_project_name"
+    new_name = sys.argv[1]
     #tool automatically renames all files/folders/data to <new_name>
     process_dir("my_awesome_game", "my_awesome_game", new_name)
 
