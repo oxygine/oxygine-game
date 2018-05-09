@@ -18,13 +18,22 @@ def rename_item(path, src, dest):
         print("renaming\n  {}\n  -> {} ".format(path, new_name))
 
 def process_file(path, src, dest):
-    with open(path, "rb") as fp:
-        data = fp.read()
 
-    data = replace_data(data, src, dest)
 
-    with open(path, "wb") as fp:
-        fp.write(data)
+    try:
+        with open(path, "rb") as fp:
+            data = fp.read()
+
+        data = data.encode('utf-8')
+        data = replace_data(data, src, dest)
+        data = data.decode('utf-8')
+
+        with open(path, "wb") as fp:
+            fp.write(data)
+    except:
+        pass
+
+
 
     rename_item(path, src, dest)
 
