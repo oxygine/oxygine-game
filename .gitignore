@@ -29,3 +29,6 @@ my_awesome_game/project/Debug_v141/
 my_awesome_game/project/proj.win32/MyAwesomeGame.VC.VC.opendb
 my_awesome_game/project/proj.android/.externalNativeBuild/
 /.idea
+my_awesome_game/project/proj.android/.idea/
+my_awesome_game/project/proj.android/proj.android.iml
+my_awesome_game/project/proj.android/local.properties
