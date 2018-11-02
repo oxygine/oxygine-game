@@ -111,7 +111,7 @@
     <ProjectReference Include="../../../libs/oxygine-framework/\oxygine\SDL\win32\oxygine.vcxproj">
       <Project>{52411305-cfe1-4fa8-9885-5729bfc816cf}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\oxygine-sound\proj.win32\oxygine-sound.vcxproj">
+    <ProjectReference Include="..\..\..\libs\oxygine-sound\proj.win32\oxygine-sound.vcxproj">
       <Project>{7fd3eb10-bd3e-459a-82d2-7de937e4f3f8}</Project>
     </ProjectReference>
   </ItemGroup>
@@ -125,15 +125,15 @@
     <ClCompile Include="../src/MyButton.cpp" />
     <ClCompile Include="../src/Player.cpp" />
     <ClCompile Include="../src/Rocket.cpp" />
-    <ClCompile Include="..\..\..\oxygine-freetype\src\ResFontFT.cpp" />
+    <ClCompile Include="..\..\..\libs\oxygine-freetype\src\ResFontFT.cpp" />
     <ClCompile Include="..\src\MyScene.cpp" />
     <ClCompile Include="../src/Unit.cpp" />
     <ClCompile Include="../src/example.cpp" />
     <ClCompile Include="../src/main.cpp" />
     <ClCompile Include="../src/res.cpp" />
-    <ClCompile Include="..\..\..\oxygine-flow\src\flow\flow.cpp" />
-    <ClCompile Include="..\..\..\oxygine-flow\src\flow\Scene.cpp" />
-    <ClCompile Include="..\..\..\oxygine-flow\src\flow\Transition.cpp" />
+    <ClCompile Include="..\..\..\libs\oxygine-flow\src\flow\flow.cpp" />
+    <ClCompile Include="..\..\..\libs\oxygine-flow\src\flow\Scene.cpp" />
+    <ClCompile Include="..\..\..\libs\oxygine-flow\src\flow\Transition.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="../src/Enemy.h" />
@@ -145,15 +145,15 @@
     <ClInclude Include="../src/MyButton.h" />
     <ClInclude Include="../src/Player.h" />
     <ClInclude Include="../src/Rocket.h" />
-    <ClInclude Include="..\..\..\oxygine-freetype\src\ResFontFT.h" />
+    <ClInclude Include="..\..\..\libs\oxygine-freetype\src\ResFontFT.h" />
     <ClInclude Include="..\src\MyScene.h" />
     <ClInclude Include="../src/Unit.h" />
     <ClInclude Include="../src/example.h" />
     <ClInclude Include="../src/res.h" />
-    <ClInclude Include="..\..\..\oxygine-flow\src\flow\flow.h" />
-    <ClInclude Include="..\..\..\oxygine-flow\src\flow\Scene.h" />
-    <ClInclude Include="..\..\..\oxygine-flow\src\flow\Transition.h" />
-    <ClInclude Include="..\..\..\oxygine-flow\src\oxygine-flow.h" />
+    <ClInclude Include="..\..\..\libs\oxygine-flow\src\flow\flow.h" />
+    <ClInclude Include="..\..\..\libs\oxygine-flow\src\flow\Scene.h" />
+    <ClInclude Include="..\..\..\libs\oxygine-flow\src\flow\Transition.h" />
+    <ClInclude Include="..\..\..\libs\oxygine-flow\src\oxygine-flow.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
