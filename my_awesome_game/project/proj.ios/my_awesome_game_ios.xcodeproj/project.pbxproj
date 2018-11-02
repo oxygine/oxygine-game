@@ -20,12 +20,22 @@
 		04998EF817F8B6F3003441C3 /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04998EF617F8B6F3003441C3 /* libjpeg.a */; };
 		049B52B11871EBFA00EF3C66 /* liboxygine_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 049B52AD1871EBBA00EF3C66 /* liboxygine_ios.a */; };
 		04E9AD3F1876FE84006A7317 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E9AD3E1876FE84006A7317 /* Images.xcassets */; };
-		1E839D002B2BA83FC83A695A /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04FE4D4FB640E0DF92DFB865 /* GameScene.cpp */; };
-		2DC477AC10D6C07B3FE008F6 /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 360377333740D8A2FD15BBE6 /* Enemy.cpp */; };
-		33E41D858B2ABD49382CD53F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD0E956CC3A2F7EB94822B5C /* main.cpp */; };
-		3A631A475DE035FC53ADE5EA /* Joystick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B12E3C9D554D9FE28101D /* Joystick.cpp */; };
-		3BB41671209E30BDF95D1B16 /* res.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7623D793B59EF0CD569E6EC2 /* res.cpp */; };
-		693088A7AB377368EE4A018E /* Rocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4BD5BB9DEF92439C0AB58 /* Rocket.cpp */; };
+		4FC00508218CF2C00024885C /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC00503218CF2BF0024885C /* CoreBluetooth.framework */; };
+		4FD888B6218CEB9600BF2A1C /* Joystick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FD88898218CEB9400BF2A1C /* Joystick.cpp */; };
+		4FD888B7218CEB9600BF2A1C /* MyScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FD88899218CEB9400BF2A1C /* MyScene.cpp */; };
+		4FD888B8218CEB9600BF2A1C /* res.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FD8889A218CEB9400BF2A1C /* res.cpp */; };
+		4FD888B9218CEB9600BF2A1C /* Unit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FD8889D218CEB9500BF2A1C /* Unit.cpp */; };
+		4FD888BA218CEB9600BF2A1C /* GameMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FD8889E218CEB9500BF2A1C /* GameMenu.cpp */; };
+		4FD888BB218CEB9600BF2A1C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FD8889F218CEB9500BF2A1C /* main.cpp */; };
+		4FD888BC218CEB9600BF2A1C /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FD888A1218CEB9500BF2A1C /* Enemy.cpp */; };
+		4FD888BD218CEB9600BF2A1C /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FD888A3218CEB9500BF2A1C /* GameScene.cpp */; };
+		4FD888BE218CEB9600BF2A1C /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FD888A6218CEB9500BF2A1C /* Player.cpp */; };
+		4FD888BF218CEB9600BF2A1C /* Rocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FD888A8218CEB9600BF2A1C /* Rocket.cpp */; };
+		4FD888C0218CEB9600BF2A1C /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FD888A9218CEB9600BF2A1C /* Game.cpp */; };
+		4FD888C1218CEB9600BF2A1C /* example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FD888AC218CEB9600BF2A1C /* example.cpp */; };
+		4FD888C2218CEB9600BF2A1C /* MyButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FD888AD218CEB9600BF2A1C /* MyButton.cpp */; };
+		4FD888C3218CEB9600BF2A1C /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FD888B1218CEB9600BF2A1C /* AppDelegate.mm */; };
+		4FD888C4218CEB9600BF2A1C /* MainMenuScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FD888B3218CEB9600BF2A1C /* MainMenuScene.cpp */; };
 		9223FE7F1C2D913D000B1FDA /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9223FE7E1C2D913D000B1FDA /* GameController.framework */; };
 		922B9F8F1BBB2FB100B1401E /* (null) in Resources */ = {isa = PBXBuildFile; };
 		923A454B1CC2277500717CDB /* liboxygine-sound.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 923A45471CC2276000717CDB /* liboxygine-sound.a */; };
@@ -37,18 +47,10 @@
 		9286F9591CCAC21D00D59913 /* flow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9286F9561CCAC21D00D59913 /* flow.cpp */; };
 		9286F95A1CCAC21D00D59913 /* Scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9286F9571CCAC21D00D59913 /* Scene.cpp */; };
 		9286F95B1CCAC21D00D59913 /* Transition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9286F9581CCAC21D00D59913 /* Transition.cpp */; };
-		9286F95E1CCAC23600D59913 /* MyScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9286F95C1CCAC23600D59913 /* MyScene.cpp */; };
 		9286F9641CCAC2D200D59913 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9286F9631CCAC2D200D59913 /* AppDelegate.mm */; };
-		9850666D9BEB7BAAA6AAECDC /* example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D954BD82D7708B65A08FB6B9 /* example.cpp */; };
 		AD35392C1DEB7FA4000C6C7B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD35392B1DEB7FA4000C6C7B /* AVFoundation.framework */; };
 		ADBB65FE1DEB7B4400CB7EC4 /* liboxygine-freetype-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBB65FB1DEB7B2900CB7EC4 /* liboxygine-freetype-ios.a */; };
 		ADBB66001DEB7B6200CB7EC4 /* libbz2.1.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBB65FF1DEB7B6200CB7EC4 /* libbz2.1.0.tbd */; };
-		C8860D93875589970329DCCD /* GameMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA100C319512824B7570663 /* GameMenu.cpp */; };
-		CD59C69314E9E74CD0A11E03 /* MainMenuScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6123B1E6FE4471A00F49751 /* MainMenuScene.cpp */; };
-		DA49ED8903C628BA578C8670 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BF9628FC8D38F9748F0CDEB /* Game.cpp */; };
-		EFF139F8BA484314F7AAF645 /* MyButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DE458993031811A4C7D28C1 /* MyButton.cpp */; };
-		F2CFD518E4E2E05ECEDBB262 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA41FC88D76540A6905224D6 /* Player.cpp */; };
-		F87DC9641C1B8FCF28948580 /* Unit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7746CA7A63049ED8F7D6BF42 /* Unit.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,7 +120,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		047F6BD19F885FF186A1447C /* GameMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameMenu.h; path = ../src/GameMenu.h; sourceTree = "<group>"; };
 		048AD0AD197D24AB001963EF /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		04998CEC17F8A933003441C3 /* my_awesome_game_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = my_awesome_game_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04998D2F17F8A96E003441C3 /* SDL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL.xcodeproj; path = "../../../libs/SDL/Xcode-iOS/SDL/SDL.xcodeproj"; sourceTree = "<group>"; };
@@ -134,23 +135,36 @@
 		04998EF517F8B6F3003441C3 /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng.a; path = "../../../libs/oxygine-framework//oxygine/third_party/ios/libraries/libpng.a"; sourceTree = "<group>"; };
 		04998EF617F8B6F3003441C3 /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjpeg.a; path = "../../../libs/oxygine-framework//oxygine/third_party/ios/libraries/libjpeg.a"; sourceTree = "<group>"; };
 		04E9AD3E1876FE84006A7317 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = my_awesome_game/Images.xcassets; sourceTree = "<group>"; };
-		04FE4D4FB640E0DF92DFB865 /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameScene.cpp; path = ../src/GameScene.cpp; sourceTree = "<group>"; };
-		0BF9628FC8D38F9748F0CDEB /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Game.cpp; path = ../src/Game.cpp; sourceTree = "<group>"; };
-		12CAC42FDF06ABE860CFEA53 /* Rocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rocket.h; path = ../src/Rocket.h; sourceTree = "<group>"; };
-		22E408FD6FCDA6E7E8E76952 /* res.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = res.h; path = ../src/res.h; sourceTree = "<group>"; };
-		2418B9A339E6004913AF5980 /* Joystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Joystick.h; path = ../src/Joystick.h; sourceTree = "<group>"; };
-		2CE4BD5BB9DEF92439C0AB58 /* Rocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Rocket.cpp; path = ../src/Rocket.cpp; sourceTree = "<group>"; };
-		360377333740D8A2FD15BBE6 /* Enemy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Enemy.cpp; path = ../src/Enemy.cpp; sourceTree = "<group>"; };
-		4013C6794AAE8DFC641D2870 /* example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = example.h; path = ../src/example.h; sourceTree = "<group>"; };
-		4DA100C319512824B7570663 /* GameMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameMenu.cpp; path = ../src/GameMenu.cpp; sourceTree = "<group>"; };
-		4E9DE6A8FCBDF43BC876EC90 /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Enemy.h; path = ../src/Enemy.h; sourceTree = "<group>"; };
-		5AFC0664D7BA80AE2A75BF0E /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Player.h; path = ../src/Player.h; sourceTree = "<group>"; };
-		5DE458993031811A4C7D28C1 /* MyButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MyButton.cpp; path = ../src/MyButton.cpp; sourceTree = "<group>"; };
-		67194AC90FEA68E7C96E6907 /* MyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyButton.h; path = ../src/MyButton.h; sourceTree = "<group>"; };
-		7623D793B59EF0CD569E6EC2 /* res.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = res.cpp; path = ../src/res.cpp; sourceTree = "<group>"; };
-		7746CA7A63049ED8F7D6BF42 /* Unit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Unit.cpp; path = ../src/Unit.cpp; sourceTree = "<group>"; };
-		7F3B12E3C9D554D9FE28101D /* Joystick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Joystick.cpp; path = ../src/Joystick.cpp; sourceTree = "<group>"; };
-		8F2AFB956EEAEED67C5B7571 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = ../src/Game.h; sourceTree = "<group>"; };
+		4FC00503218CF2BF0024885C /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		4FD88898218CEB9400BF2A1C /* Joystick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Joystick.cpp; path = ../src/Joystick.cpp; sourceTree = "<group>"; };
+		4FD88899218CEB9400BF2A1C /* MyScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MyScene.cpp; path = ../src/MyScene.cpp; sourceTree = "<group>"; };
+		4FD8889A218CEB9400BF2A1C /* res.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = res.cpp; path = ../src/res.cpp; sourceTree = "<group>"; };
+		4FD8889B218CEB9400BF2A1C /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Player.h; path = ../src/Player.h; sourceTree = "<group>"; };
+		4FD8889C218CEB9500BF2A1C /* MyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyButton.h; path = ../src/MyButton.h; sourceTree = "<group>"; };
+		4FD8889D218CEB9500BF2A1C /* Unit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Unit.cpp; path = ../src/Unit.cpp; sourceTree = "<group>"; };
+		4FD8889E218CEB9500BF2A1C /* GameMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameMenu.cpp; path = ../src/GameMenu.cpp; sourceTree = "<group>"; };
+		4FD8889F218CEB9500BF2A1C /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../src/main.cpp; sourceTree = "<group>"; };
+		4FD888A0218CEB9500BF2A1C /* MainMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainMenuScene.h; path = ../src/MainMenuScene.h; sourceTree = "<group>"; };
+		4FD888A1218CEB9500BF2A1C /* Enemy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Enemy.cpp; path = ../src/Enemy.cpp; sourceTree = "<group>"; };
+		4FD888A2218CEB9500BF2A1C /* Joystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Joystick.h; path = ../src/Joystick.h; sourceTree = "<group>"; };
+		4FD888A3218CEB9500BF2A1C /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameScene.cpp; path = ../src/GameScene.cpp; sourceTree = "<group>"; };
+		4FD888A4218CEB9500BF2A1C /* Rocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rocket.h; path = ../src/Rocket.h; sourceTree = "<group>"; };
+		4FD888A5218CEB9500BF2A1C /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = ../src/Game.h; sourceTree = "<group>"; };
+		4FD888A6218CEB9500BF2A1C /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Player.cpp; path = ../src/Player.cpp; sourceTree = "<group>"; };
+		4FD888A7218CEB9500BF2A1C /* Unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Unit.h; path = ../src/Unit.h; sourceTree = "<group>"; };
+		4FD888A8218CEB9600BF2A1C /* Rocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Rocket.cpp; path = ../src/Rocket.cpp; sourceTree = "<group>"; };
+		4FD888A9218CEB9600BF2A1C /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Game.cpp; path = ../src/Game.cpp; sourceTree = "<group>"; };
+		4FD888AA218CEB9600BF2A1C /* GameMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameMenu.h; path = ../src/GameMenu.h; sourceTree = "<group>"; };
+		4FD888AB218CEB9600BF2A1C /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Enemy.h; path = ../src/Enemy.h; sourceTree = "<group>"; };
+		4FD888AC218CEB9600BF2A1C /* example.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = example.cpp; path = ../src/example.cpp; sourceTree = "<group>"; };
+		4FD888AD218CEB9600BF2A1C /* MyButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MyButton.cpp; path = ../src/MyButton.cpp; sourceTree = "<group>"; };
+		4FD888AE218CEB9600BF2A1C /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameScene.h; path = ../src/GameScene.h; sourceTree = "<group>"; };
+		4FD888B0218CEB9600BF2A1C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4FD888B1218CEB9600BF2A1C /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		4FD888B2218CEB9600BF2A1C /* MyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyScene.h; path = ../src/MyScene.h; sourceTree = "<group>"; };
+		4FD888B3218CEB9600BF2A1C /* MainMenuScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MainMenuScene.cpp; path = ../src/MainMenuScene.cpp; sourceTree = "<group>"; };
+		4FD888B4218CEB9600BF2A1C /* example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = example.h; path = ../src/example.h; sourceTree = "<group>"; };
+		4FD888B5218CEB9600BF2A1C /* res.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = res.h; path = ../src/res.h; sourceTree = "<group>"; };
 		9223FE7E1C2D913D000B1FDA /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
 		923A45421CC2276000717CDB /* oxygine-sound.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "oxygine-sound.xcodeproj"; path = "../../../libs/oxygine-sound/proj.ios/oxygine-sound.xcodeproj"; sourceTree = "<group>"; };
 		923A454C1CC227B800717CDB /* oxygine-sound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "oxygine-sound.h"; path = "../../../libs/oxygine-sound/src/oxygine-sound.h"; sourceTree = "<group>"; };
@@ -163,20 +177,11 @@
 		9286F9561CCAC21D00D59913 /* flow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = flow.cpp; path = "../../../libs/oxygine-flow/src/flow/flow.cpp"; sourceTree = "<group>"; };
 		9286F9571CCAC21D00D59913 /* Scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Scene.cpp; path = "../../../libs/oxygine-flow/src/flow/Scene.cpp"; sourceTree = "<group>"; };
 		9286F9581CCAC21D00D59913 /* Transition.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Transition.cpp; path = "../../../libs/oxygine-flow/src/flow/Transition.cpp"; sourceTree = "<group>"; };
-		9286F95C1CCAC23600D59913 /* MyScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MyScene.cpp; path = ../src/MyScene.cpp; sourceTree = "<group>"; };
-		9286F95D1CCAC23600D59913 /* MyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyScene.h; path = ../src/MyScene.h; sourceTree = "<group>"; };
 		9286F9621CCAC2D200D59913 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9286F9631CCAC2D200D59913 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		AD35392B1DEB7FA4000C6C7B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		ADBB65F61DEB7B2900CB7EC4 /* oxygine-freetype-ios.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "oxygine-freetype-ios.xcodeproj"; path = "../../../libs/oxygine-freetype/proj.ios/oxygine-freetype-ios/oxygine-freetype-ios.xcodeproj"; sourceTree = "<group>"; };
 		ADBB65FF1DEB7B6200CB7EC4 /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
-		B6A9281364AF5D3B581D374C /* Unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Unit.h; path = ../src/Unit.h; sourceTree = "<group>"; };
-		BA41FC88D76540A6905224D6 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Player.cpp; path = ../src/Player.cpp; sourceTree = "<group>"; };
-		BD0E956CC3A2F7EB94822B5C /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../src/main.cpp; sourceTree = "<group>"; };
-		C570FAEF487CD34B62389F89 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameScene.h; path = ../src/GameScene.h; sourceTree = "<group>"; };
-		CAD9D6A98986EA8082368448 /* MainMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainMenuScene.h; path = ../src/MainMenuScene.h; sourceTree = "<group>"; };
-		D954BD82D7708B65A08FB6B9 /* example.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = example.cpp; path = ../src/example.cpp; sourceTree = "<group>"; };
-		F6123B1E6FE4471A00F49751 /* MainMenuScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MainMenuScene.cpp; path = ../src/MainMenuScene.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +189,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FC00508218CF2C00024885C /* CoreBluetooth.framework in Frameworks */,
 				AD35392C1DEB7FA4000C6C7B /* AVFoundation.framework in Frameworks */,
 				ADBB66001DEB7B6200CB7EC4 /* libbz2.1.0.tbd in Frameworks */,
 				ADBB65FE1DEB7B4400CB7EC4 /* liboxygine-freetype-ios.a in Frameworks */,
@@ -248,6 +254,7 @@
 		04998CEE17F8A933003441C3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4FC00503218CF2BF0024885C /* CoreBluetooth.framework */,
 				AD35392B1DEB7FA4000C6C7B /* AVFoundation.framework */,
 				ADBB65FF1DEB7B6200CB7EC4 /* libbz2.1.0.tbd */,
 				923A454D1CC227ED00717CDB /* OpenAL.framework */,
@@ -287,34 +294,35 @@
 		04998D4417F8A9ED003441C3 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				4FD888A1218CEB9500BF2A1C /* Enemy.cpp */,
+				4FD888AB218CEB9600BF2A1C /* Enemy.h */,
+				4FD888AC218CEB9600BF2A1C /* example.cpp */,
+				4FD888B4218CEB9600BF2A1C /* example.h */,
+				4FD888A9218CEB9600BF2A1C /* Game.cpp */,
+				4FD888A5218CEB9500BF2A1C /* Game.h */,
+				4FD8889E218CEB9500BF2A1C /* GameMenu.cpp */,
+				4FD888AA218CEB9600BF2A1C /* GameMenu.h */,
+				4FD888A3218CEB9500BF2A1C /* GameScene.cpp */,
+				4FD888AE218CEB9600BF2A1C /* GameScene.h */,
+				4FD888AF218CEB9600BF2A1C /* ios */,
+				4FD88898218CEB9400BF2A1C /* Joystick.cpp */,
+				4FD888A2218CEB9500BF2A1C /* Joystick.h */,
+				4FD8889F218CEB9500BF2A1C /* main.cpp */,
+				4FD888B3218CEB9600BF2A1C /* MainMenuScene.cpp */,
+				4FD888A0218CEB9500BF2A1C /* MainMenuScene.h */,
+				4FD888AD218CEB9600BF2A1C /* MyButton.cpp */,
+				4FD8889C218CEB9500BF2A1C /* MyButton.h */,
+				4FD88899218CEB9400BF2A1C /* MyScene.cpp */,
+				4FD888B2218CEB9600BF2A1C /* MyScene.h */,
+				4FD888A6218CEB9500BF2A1C /* Player.cpp */,
+				4FD8889B218CEB9400BF2A1C /* Player.h */,
+				4FD8889A218CEB9400BF2A1C /* res.cpp */,
+				4FD888B5218CEB9600BF2A1C /* res.h */,
+				4FD888A8218CEB9600BF2A1C /* Rocket.cpp */,
+				4FD888A4218CEB9500BF2A1C /* Rocket.h */,
+				4FD8889D218CEB9500BF2A1C /* Unit.cpp */,
+				4FD888A7218CEB9500BF2A1C /* Unit.h */,
 				9286F9611CCAC2D200D59913 /* ios */,
-				9286F95C1CCAC23600D59913 /* MyScene.cpp */,
-				9286F95D1CCAC23600D59913 /* MyScene.h */,
-				360377333740D8A2FD15BBE6 /* Enemy.cpp */,
-				0BF9628FC8D38F9748F0CDEB /* Game.cpp */,
-				4DA100C319512824B7570663 /* GameMenu.cpp */,
-				04FE4D4FB640E0DF92DFB865 /* GameScene.cpp */,
-				7F3B12E3C9D554D9FE28101D /* Joystick.cpp */,
-				F6123B1E6FE4471A00F49751 /* MainMenuScene.cpp */,
-				5DE458993031811A4C7D28C1 /* MyButton.cpp */,
-				BA41FC88D76540A6905224D6 /* Player.cpp */,
-				2CE4BD5BB9DEF92439C0AB58 /* Rocket.cpp */,
-				7746CA7A63049ED8F7D6BF42 /* Unit.cpp */,
-				D954BD82D7708B65A08FB6B9 /* example.cpp */,
-				BD0E956CC3A2F7EB94822B5C /* main.cpp */,
-				7623D793B59EF0CD569E6EC2 /* res.cpp */,
-				4E9DE6A8FCBDF43BC876EC90 /* Enemy.h */,
-				8F2AFB956EEAEED67C5B7571 /* Game.h */,
-				047F6BD19F885FF186A1447C /* GameMenu.h */,
-				C570FAEF487CD34B62389F89 /* GameScene.h */,
-				2418B9A339E6004913AF5980 /* Joystick.h */,
-				CAD9D6A98986EA8082368448 /* MainMenuScene.h */,
-				67194AC90FEA68E7C96E6907 /* MyButton.h */,
-				5AFC0664D7BA80AE2A75BF0E /* Player.h */,
-				12CAC42FDF06ABE860CFEA53 /* Rocket.h */,
-				B6A9281364AF5D3B581D374C /* Unit.h */,
-				4013C6794AAE8DFC641D2870 /* example.h */,
-				22E408FD6FCDA6E7E8E76952 /* res.h */,
 			);
 			name = src;
 			sourceTree = "<group>";
@@ -325,6 +333,16 @@
 				049B52AD1871EBBA00EF3C66 /* liboxygine_ios.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		4FD888AF218CEB9600BF2A1C /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				4FD888B0218CEB9600BF2A1C /* AppDelegate.h */,
+				4FD888B1218CEB9600BF2A1C /* AppDelegate.mm */,
+			);
+			name = ios;
+			path = ../src/ios;
 			sourceTree = "<group>";
 		};
 		923A45431CC2276000717CDB /* Products */ = {
@@ -397,7 +415,7 @@
 				ORGANIZATIONNAME = Mac;
 				TargetAttributes = {
 					04998CEB17F8A933003441C3 = {
-						DevelopmentTeam = SG98QZPTLD;
+						DevelopmentTeam = ANNH36MSRL;
 					};
 				};
 			};
@@ -496,24 +514,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DC477AC10D6C07B3FE008F6 /* Enemy.cpp in Sources */,
-				DA49ED8903C628BA578C8670 /* Game.cpp in Sources */,
-				C8860D93875589970329DCCD /* GameMenu.cpp in Sources */,
 				9286F95A1CCAC21D00D59913 /* Scene.cpp in Sources */,
+				4FD888B9218CEB9600BF2A1C /* Unit.cpp in Sources */,
+				4FD888B6218CEB9600BF2A1C /* Joystick.cpp in Sources */,
+				4FD888BF218CEB9600BF2A1C /* Rocket.cpp in Sources */,
+				4FD888C3218CEB9600BF2A1C /* AppDelegate.mm in Sources */,
+				4FD888B8218CEB9600BF2A1C /* res.cpp in Sources */,
+				4FD888BA218CEB9600BF2A1C /* GameMenu.cpp in Sources */,
 				9286F9641CCAC2D200D59913 /* AppDelegate.mm in Sources */,
-				1E839D002B2BA83FC83A695A /* GameScene.cpp in Sources */,
-				3A631A475DE035FC53ADE5EA /* Joystick.cpp in Sources */,
-				CD59C69314E9E74CD0A11E03 /* MainMenuScene.cpp in Sources */,
-				EFF139F8BA484314F7AAF645 /* MyButton.cpp in Sources */,
+				4FD888C2218CEB9600BF2A1C /* MyButton.cpp in Sources */,
 				9286F9591CCAC21D00D59913 /* flow.cpp in Sources */,
-				F2CFD518E4E2E05ECEDBB262 /* Player.cpp in Sources */,
-				9286F95E1CCAC23600D59913 /* MyScene.cpp in Sources */,
+				4FD888C1218CEB9600BF2A1C /* example.cpp in Sources */,
+				4FD888B7218CEB9600BF2A1C /* MyScene.cpp in Sources */,
+				4FD888C0218CEB9600BF2A1C /* Game.cpp in Sources */,
+				4FD888BE218CEB9600BF2A1C /* Player.cpp in Sources */,
+				4FD888BB218CEB9600BF2A1C /* main.cpp in Sources */,
+				4FD888BC218CEB9600BF2A1C /* Enemy.cpp in Sources */,
+				4FD888BD218CEB9600BF2A1C /* GameScene.cpp in Sources */,
 				9286F95B1CCAC21D00D59913 /* Transition.cpp in Sources */,
-				693088A7AB377368EE4A018E /* Rocket.cpp in Sources */,
-				F87DC9641C1B8FCF28948580 /* Unit.cpp in Sources */,
-				9850666D9BEB7BAAA6AAECDC /* example.cpp in Sources */,
-				33E41D858B2ABD49382CD53F /* main.cpp in Sources */,
-				3BB41671209E30BDF95D1B16 /* res.cpp in Sources */,
+				4FD888C4218CEB9600BF2A1C /* MainMenuScene.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -630,7 +649,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = SG98QZPTLD;
+				DEVELOPMENT_TEAM = ANNH36MSRL;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "my_awesome_game/my_awesome_game_ios-Prefix.pch";
 				GCC_WARN_UNUSED_VALUE = YES;
@@ -642,7 +661,7 @@
 					"../../../libs/oxygine-framework//oxygine/third_party/ios/libraries",
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.oxygine.my_awesome_game;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.oxygine.my-awesome-game2";
 				PRODUCT_NAME = my_awesome_game_ios;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -657,7 +676,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = SG98QZPTLD;
+				DEVELOPMENT_TEAM = ANNH36MSRL;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "my_awesome_game/my_awesome_game_ios-Prefix.pch";
 				GCC_WARN_UNUSED_VALUE = YES;
@@ -669,7 +688,7 @@
 					"../../../libs/oxygine-framework//oxygine/third_party/ios/libraries",
 				);
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = org.oxygine.my_awesome_game;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.oxygine.my-awesome-game2";
 				PRODUCT_NAME = my_awesome_game_ios;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
