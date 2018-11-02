@@ -56,4 +56,5 @@ if __name__ == "__main__":
     new_name = sys.argv[1]
     #tool automatically renames all files/folders/data to <new_name>
     process_dir("my_awesome_game", "my_awesome_game", new_name)
+    process_file(".gitignore", "my_awesome_game", new_name)
 
