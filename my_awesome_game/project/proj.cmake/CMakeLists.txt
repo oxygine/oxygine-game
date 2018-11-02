@@ -1,22 +1,22 @@
 cmake_minimum_required (VERSION 2.6)
 project (my_awesome_game)
 
-add_subdirectory(../../../oxygine-framework/ oxygine-framework)
+add_subdirectory(../../../libs/oxygine-framework/ oxygine-framework)
 add_definitions(${OXYGINE_DEFINITIONS})
 include_directories(${OXYGINE_INCLUDE_DIRS})
 link_directories(${OXYGINE_LIBRARY_DIRS})
 
 
-add_subdirectory(../../../oxygine-sound/ oxygine-sound)
+add_subdirectory(../../../libs/oxygine-sound/ oxygine-sound)
 add_definitions(${OXYGINESOUND_DEFINITIONS})
 include_directories(${OXYGINESOUND_INCLUDE_DIRS})
 link_directories(${OXYGINESOUND_LIBRARY_DIRS})
 
-add_subdirectory(../../../oxygine-flow/ oxygine-flow)
+add_subdirectory(../../../libs/oxygine-flow/ oxygine-flow)
 include_directories(${OXYGINE_FLOW_INCLUDE_DIRS})
 
 
-add_subdirectory(../../../oxygine-freetype/ oxygine-freetype)
+add_subdirectory(../../../libs/oxygine-freetype/ oxygine-freetype)
 include_directories(${OXYGINE_FREETYPE_INCLUDE_DIRS})
 link_directories(${OXYGINE_FREETYPE_LIBRARY_DIRS})
 

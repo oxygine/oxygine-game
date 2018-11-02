@@ -121,8 +121,8 @@
 		047F6BD19F885FF186A1447C /* GameMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameMenu.h; path = ../src/GameMenu.h; sourceTree = "<group>"; };
 		048AD0AD197D24AB001963EF /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		04998CEC17F8A933003441C3 /* my_awesome_game_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = my_awesome_game_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		04998D2F17F8A96E003441C3 /* SDL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL.xcodeproj; path = "../../..//SDL/Xcode-iOS/SDL/SDL.xcodeproj"; sourceTree = "<group>"; };
-		04998D3917F8A9AA003441C3 /* oxygine_ios.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = oxygine_ios.xcodeproj; path = "../../../oxygine-framework//oxygine/SDL/ios/oxygine/oxygine_ios.xcodeproj"; sourceTree = "<group>"; };
+		04998D2F17F8A96E003441C3 /* SDL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL.xcodeproj; path = "../../../libs/SDL/Xcode-iOS/SDL/SDL.xcodeproj"; sourceTree = "<group>"; };
+		04998D3917F8A9AA003441C3 /* oxygine_ios.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = oxygine_ios.xcodeproj; path = "../../../libs/oxygine-framework//oxygine/SDL/ios/oxygine/oxygine_ios.xcodeproj"; sourceTree = "<group>"; };
 		04998EE117F8ADB4003441C3 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		04998EE217F8ADB4003441C3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		04998EE317F8ADB4003441C3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -131,8 +131,8 @@
 		04998EEB17F8ADD4003441C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		04998EEC17F8ADD4003441C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		04998EED17F8ADD4003441C3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		04998EF517F8B6F3003441C3 /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng.a; path = "../../../oxygine-framework//oxygine/third_party/ios/libraries/libpng.a"; sourceTree = "<group>"; };
-		04998EF617F8B6F3003441C3 /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjpeg.a; path = "../../../oxygine-framework//oxygine/third_party/ios/libraries/libjpeg.a"; sourceTree = "<group>"; };
+		04998EF517F8B6F3003441C3 /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng.a; path = "../../../libs/oxygine-framework//oxygine/third_party/ios/libraries/libpng.a"; sourceTree = "<group>"; };
+		04998EF617F8B6F3003441C3 /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjpeg.a; path = "../../../libs/oxygine-framework//oxygine/third_party/ios/libraries/libjpeg.a"; sourceTree = "<group>"; };
 		04E9AD3E1876FE84006A7317 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = my_awesome_game/Images.xcassets; sourceTree = "<group>"; };
 		04FE4D4FB640E0DF92DFB865 /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameScene.cpp; path = ../src/GameScene.cpp; sourceTree = "<group>"; };
 		0BF9628FC8D38F9748F0CDEB /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Game.cpp; path = ../src/Game.cpp; sourceTree = "<group>"; };
@@ -152,23 +152,23 @@
 		7F3B12E3C9D554D9FE28101D /* Joystick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Joystick.cpp; path = ../src/Joystick.cpp; sourceTree = "<group>"; };
 		8F2AFB956EEAEED67C5B7571 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = ../src/Game.h; sourceTree = "<group>"; };
 		9223FE7E1C2D913D000B1FDA /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
-		923A45421CC2276000717CDB /* oxygine-sound.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "oxygine-sound.xcodeproj"; path = "../../../oxygine-sound/proj.ios/oxygine-sound.xcodeproj"; sourceTree = "<group>"; };
-		923A454C1CC227B800717CDB /* oxygine-sound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "oxygine-sound.h"; path = "../../../oxygine-sound/src/oxygine-sound.h"; sourceTree = "<group>"; };
+		923A45421CC2276000717CDB /* oxygine-sound.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "oxygine-sound.xcodeproj"; path = "../../../libs/oxygine-sound/proj.ios/oxygine-sound.xcodeproj"; sourceTree = "<group>"; };
+		923A454C1CC227B800717CDB /* oxygine-sound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "oxygine-sound.h"; path = "../../../libs/oxygine-sound/src/oxygine-sound.h"; sourceTree = "<group>"; };
 		923A454D1CC227ED00717CDB /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		923A454F1CC2281100717CDB /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fonts; path = ../../data/fonts; sourceTree = "<group>"; };
 		923A45501CC2281100717CDB /* sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sounds; path = ../../data/sounds; sourceTree = "<group>"; };
 		923A45511CC2281100717CDB /* ui.xml.ox */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ui.xml.ox; path = ../../data/ui.xml.ox; sourceTree = "<group>"; };
 		923A45521CC2281100717CDB /* xmls */ = {isa = PBXFileReference; lastKnownFileType = folder; name = xmls; path = ../../data/xmls; sourceTree = "<group>"; };
-		9286F9541CCAC1F600D59913 /* oxygine-flow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "oxygine-flow.h"; path = "../../../oxygine-flow/src/oxygine-flow.h"; sourceTree = "<group>"; };
-		9286F9561CCAC21D00D59913 /* flow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = flow.cpp; path = "../../../oxygine-flow/src/flow/flow.cpp"; sourceTree = "<group>"; };
-		9286F9571CCAC21D00D59913 /* Scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Scene.cpp; path = "../../../oxygine-flow/src/flow/Scene.cpp"; sourceTree = "<group>"; };
-		9286F9581CCAC21D00D59913 /* Transition.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Transition.cpp; path = "../../../oxygine-flow/src/flow/Transition.cpp"; sourceTree = "<group>"; };
+		9286F9541CCAC1F600D59913 /* oxygine-flow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "oxygine-flow.h"; path = "../../../libs/oxygine-flow/src/oxygine-flow.h"; sourceTree = "<group>"; };
+		9286F9561CCAC21D00D59913 /* flow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = flow.cpp; path = "../../../libs/oxygine-flow/src/flow/flow.cpp"; sourceTree = "<group>"; };
+		9286F9571CCAC21D00D59913 /* Scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Scene.cpp; path = "../../../libs/oxygine-flow/src/flow/Scene.cpp"; sourceTree = "<group>"; };
+		9286F9581CCAC21D00D59913 /* Transition.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Transition.cpp; path = "../../../libs/oxygine-flow/src/flow/Transition.cpp"; sourceTree = "<group>"; };
 		9286F95C1CCAC23600D59913 /* MyScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MyScene.cpp; path = ../src/MyScene.cpp; sourceTree = "<group>"; };
 		9286F95D1CCAC23600D59913 /* MyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyScene.h; path = ../src/MyScene.h; sourceTree = "<group>"; };
 		9286F9621CCAC2D200D59913 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9286F9631CCAC2D200D59913 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		AD35392B1DEB7FA4000C6C7B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		ADBB65F61DEB7B2900CB7EC4 /* oxygine-freetype-ios.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "oxygine-freetype-ios.xcodeproj"; path = "../../../oxygine-freetype/proj.ios/oxygine-freetype-ios/oxygine-freetype-ios.xcodeproj"; sourceTree = "<group>"; };
+		ADBB65F61DEB7B2900CB7EC4 /* oxygine-freetype-ios.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "oxygine-freetype-ios.xcodeproj"; path = "../../../libs/oxygine-freetype/proj.ios/oxygine-freetype-ios/oxygine-freetype-ios.xcodeproj"; sourceTree = "<group>"; };
 		ADBB65FF1DEB7B6200CB7EC4 /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
 		B6A9281364AF5D3B581D374C /* Unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Unit.h; path = ../src/Unit.h; sourceTree = "<group>"; };
 		BA41FC88D76540A6905224D6 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Player.cpp; path = ../src/Player.cpp; sourceTree = "<group>"; };
@@ -582,7 +582,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "../../../oxygine-framework//oxygine/src ../../..//SDL/include ../../../oxygine-freetype/src";
+				USER_HEADER_SEARCH_PATHS = "../../../libs/oxygine-framework//oxygine/src ../../../libs/SDL/include ../../../libs/oxygine-freetype/src";
 			};
 			name = Debug;
 		};
@@ -618,7 +618,7 @@
 				LD_NO_PIE = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "../../../oxygine-framework//oxygine/src ../../..//SDL/include ../../../oxygine-freetype/src";
+				USER_HEADER_SEARCH_PATHS = "../../../libs/oxygine-framework//oxygine/src ../../../libs/SDL/include ../../../libs/oxygine-freetype/src";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -639,7 +639,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"../../../oxygine-framework//oxygine/third_party/ios/libraries",
+					"../../../libs/oxygine-framework//oxygine/third_party/ios/libraries",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = org.oxygine.my_awesome_game;
@@ -666,7 +666,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"../../../oxygine-framework//oxygine/third_party/ios/libraries",
+					"../../../libs/oxygine-framework//oxygine/third_party/ios/libraries",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = org.oxygine.my_awesome_game;

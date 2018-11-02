@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "my_awesome_game", "my_awesome_game.vcxproj", "{2B4D7491-A4F8-4606-B0E3-2A1FCE3C46C4}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "oxygine", "..\..\..\oxygine-framework\oxygine\SDL\win32\oxygine.vcxproj", "{52411305-CFE1-4FA8-9885-5729BFC816CF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "oxygine", "..\..\..\libs\oxygine-framework\oxygine\SDL\win32\oxygine.vcxproj", "{52411305-CFE1-4FA8-9885-5729BFC816CF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "oxygine-sound", "..\..\..\oxygine-sound\proj.win32\oxygine-sound.vcxproj", "{7FD3EB10-BD3E-459A-82D2-7DE937E4F3F8}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "oxygine-sound", "..\..\..\libs\oxygine-sound\proj.win32\oxygine-sound.vcxproj", "{7FD3EB10-BD3E-459A-82D2-7DE937E4F3F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
