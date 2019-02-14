@@ -1,15 +1,15 @@
 [submodule "oxygine-framework"]
 	path = libs/oxygine-framework
-	url = git@github.com:oxygine/oxygine-framework.git
+	url = https://github.com/oxygine/oxygine-framework.git
 [submodule "SDL"]
 	path = libs/SDL
-	url = git@github.com:oxygine/SDL2.git
+	url = https://github.com/oxygine/SDL2.git
 [submodule "oxygine-sound"]
 	path = libs/oxygine-sound
-	url = git@github.com:oxygine/oxygine-sound.git
+	url = https://github.com/oxygine/oxygine-sound.git
 [submodule "oxygine-flow"]
 	path = libs/oxygine-flow
-	url = git@github.com:oxygine/oxygine-flow.git
+	url = https://github.com/oxygine/oxygine-flow.git
 [submodule "oxygine-freetype"]
 	path = libs/oxygine-freetype
-	url = git@github.com:oxygine/oxygine-freetype.git
+	url = https://github.com/oxygine/oxygine-freetype.git

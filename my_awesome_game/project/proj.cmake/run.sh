@@ -9,8 +9,8 @@ cmake ..
 #build it
 make
 
-#move to working data folder with resources
-cd ../../data
+#move to working data folder with resources (from the build folder)
+cd ../../../data/
 
 #run executable
-./../proj.cmake/build/my_awesome_game
+./../project/proj.cmake/build/my_awesome_game
